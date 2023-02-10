@@ -72,6 +72,7 @@ static bool IsPrint(){
 static void DrawPartial(){
     int ran = new Random().Next(3,9);
     for(int i = 1; i<ran; i++){
+        // if IsPrint = True --> writeline "O", else print " "
         if (IsPrint()){
             System.Console.WriteLine("O");
         } else {
